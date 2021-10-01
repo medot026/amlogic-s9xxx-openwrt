@@ -59,9 +59,6 @@ git clone https://github.com/NueXini/NueXini_Packages.git package/rclone
 # rm -rf feeds/packages/utils/{containerd,libnetwork,runc,tini}
 # svn co https://github.com/Lienol/openwrt-packages/trunk/utils/{containerd,libnetwork,runc,tini} feeds/packages/utils
 
-rm -rf package/lean/luci-theme-argon 
-git clone https://github.com/jerrykuku/luci-theme-argon.git package/lean/luci-theme-argon
-
 git clone https://github.com/kiddin9/openwrt-bypass.git package/luci-app-bypass
 git clone https://github.com/kiddin9/openwrt-bypass.git package/smartdns-le
 
